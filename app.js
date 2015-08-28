@@ -6,6 +6,10 @@ $('.box').click(function() {
 	$(this).addClass(color)
 })
 
+$('.box').on('dblclick', function() {
+	$(this).removeClass(colors);
+})
+
 $('#reset').click(function() {
 	$('.box').removeClass(colors)
 })
